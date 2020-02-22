@@ -1,0 +1,9 @@
+kata:
+  - id: credit-card-number
+    hu: !file ../tasks/credit-card-number/meta.hu.yaml
+    en: !file ../tasks/credit-card-number/meta.en.yaml
+  - id: number-stepper
+    hu: !file ../tasks/number-stepper/meta.hu.yaml
+    en: !file ../tasks/number-stepper/meta.en.yaml
+complex:
+application:
