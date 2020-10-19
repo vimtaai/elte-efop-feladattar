@@ -5,5 +5,8 @@ kata:
   - id: number-stepper
     hu: !file ../tasks/number-stepper/meta.hu.yaml
     en: !file ../tasks/number-stepper/meta.en.yaml
+  - id: circle-counter
+    hu: !file ../tasks/circle-counter/meta.hu.yaml
+    en: !file ../tasks/circle-counter/meta.en.yaml
 complex:
 application:

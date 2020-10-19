@@ -10,6 +10,7 @@ Készíts egy olyan beviteli mezőt (`input`), mely `input` eseményre megszámo
 Jelenítsd meg az eredményt az `output` elemben!
 
 ## Minta be- és kimenetek
+
 - 6 &rarr; 1
 - 8 &rarr; 2
 - 69 &rarr; 2
@@ -18,4 +19,5 @@ Jelenítsd meg az eredményt az `output` elemben!
 - foo9bar8 &rarr; 3
 
 ## Megjegyzés
+
 A három megoldás nem a megoldás lépései, hanem egyre bonyolultabb, illetve a JavaScript lehetőségeit egyre jobban kihasználó, eltérő megoldások
