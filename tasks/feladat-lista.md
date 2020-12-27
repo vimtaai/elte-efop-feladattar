@@ -20,9 +20,9 @@
 
 ## Canvas feladatok
 
-- [ ] Rajzoljunk bolygót, melynek gyűrűi vannak
-- [ ] Rajzoljunk csillagos égboltot
-- [ ] Rajzoljunk csillagot oda, ahova kattintottunk
+- [x] Rajzoljunk bolygót, melynek gyűrűi vannak
+- [x] Rajzoljunk csillagos égboltot
+- [x] Rajzoljunk csillagot oda, ahova kattintottunk
 - [ ] Térkép rajzolása
 - [ ] Iránytű (egérre)
 - [ ] Szimuláljuk a naprendszer működését + Vénusz - Föld

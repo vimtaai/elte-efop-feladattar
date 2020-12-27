@@ -11,5 +11,8 @@ kata:
   - id: planet-rings
     hu: !file ../tasks/planet-rings/meta.hu.yaml
     en: !file ../tasks/planet-rings/meta.en.yaml
+  - id: starry-sky
+    hu: !file ../tasks/starry-sky/meta.hu.yaml
+    en: !file ../tasks/starry-sky/meta.en.yaml
 complex:
 application:
