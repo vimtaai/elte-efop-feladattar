@@ -16,7 +16,7 @@
 - [ ] Set kártyajáték
 - [ ] Csővezeték játék
 - [ ] Színösszekötős játék
-- [ ] Among us tasks: buy bevarage, prime shields, record temperature, start reactor (Simon says), unlock manifolds
+- [ ] Among us tasks: buy beverage, prime shields, record temperature, start reactor (Simon says), unlock manifolds
 
 ## Canvas feladatok
 

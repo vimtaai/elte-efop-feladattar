@@ -1,18 +1,38 @@
 kata:
   - id: credit-card-number
-    hu: !file ../tasks/credit-card-number/meta.hu.yaml
-    en: !file ../tasks/credit-card-number/meta.en.yaml
+    hu:
+      meta: !file ../tasks/credit-card-number/meta.hu.yaml
+      task: !file ../tasks/credit-card-number/task.hu.md
+    en:
+      meta: !file ../tasks/credit-card-number/meta.en.yaml
+      task: !file ../tasks/credit-card-number/task.en.md
   - id: number-stepper
-    hu: !file ../tasks/number-stepper/meta.hu.yaml
-    en: !file ../tasks/number-stepper/meta.en.yaml
+    hu:
+      meta: !file ../tasks/number-stepper/meta.hu.yaml
+      task: !file ../tasks/number-stepper/task.hu.md
+    en:
+      meta: !file ../tasks/number-stepper/meta.en.yaml
+      task: !file ../tasks/number-stepper/task.en.md
   - id: circle-counter
-    hu: !file ../tasks/circle-counter/meta.hu.yaml
-    en: !file ../tasks/circle-counter/meta.en.yaml
+    hu:
+      meta: !file ../tasks/circle-counter/meta.hu.yaml
+      task: !file ../tasks/circle-counter/task.hu.md
+    en:
+      meta: !file ../tasks/circle-counter/meta.en.yaml
+      task: !file ../tasks/circle-counter/task.en.md
   - id: planet-rings
-    hu: !file ../tasks/planet-rings/meta.hu.yaml
-    en: !file ../tasks/planet-rings/meta.en.yaml
+    hu:
+      meta: !file ../tasks/planet-rings/meta.hu.yaml
+      task: !file ../tasks/planet-rings/task.hu.md
+    en:
+      meta: !file ../tasks/planet-rings/meta.en.yaml
+      task: !file ../tasks/planet-rings/task.en.md
   - id: starry-sky
-    hu: !file ../tasks/starry-sky/meta.hu.yaml
-    en: !file ../tasks/starry-sky/meta.en.yaml
+    hu:
+      meta: !file ../tasks/starry-sky/meta.hu.yaml
+      task: !file ../tasks/starry-sky/task.hu.md
+    en:
+      meta: !file ../tasks/starry-sky/meta.en.yaml
+      task: !file ../tasks/starry-sky/task.en.md
 complex:
 application:

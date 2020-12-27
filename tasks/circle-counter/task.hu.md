@@ -1,4 +1,4 @@
-# Karika-számlálás
+## Karika-számlálás
 
 Készíts egy olyan beviteli mezőt (`input`), mely `input` eseményre megszámolja a benne található számokban a "kicsi karikákat", az alábbi módon:
 
@@ -9,7 +9,7 @@ Készíts egy olyan beviteli mezőt (`input`), mely `input` eseményre megszámo
 
 Jelenítsd meg az eredményt az `output` elemben!
 
-## Példák
+### Példák
 
 - 6 ➡ 1
 - 8 ➡ 2
@@ -18,6 +18,6 @@ Jelenítsd meg az eredményt az `output` elemben!
 - 123457 ➡ 0
 - foo9bar8 ➡ 3
 
-## Megjegyzések tanárok számára
+### Megjegyzések tanárok számára
 
 A három megoldás nem a megoldás lépései, hanem egyre bonyolultabb, illetve a JavaScript lehetőségeit egyre jobban kihasználó, eltérő megoldások.

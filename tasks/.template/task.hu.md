@@ -1,24 +1,24 @@
-# Feladat neve
+## Feladat neve
 
 A feladat részletes leírása.
 
-## Példák (opcionális)
+### Példák (opcionális)
 
 - Bemenet 1 ➡ Kimenet 1
 - Bemenet 2 ➡ Kimenet 2
 - stb.
 
-## További feladatok (opcionális)
+### További feladatok (opcionális)
 
 - További feladat, ami az eredetire épít és valamilyen új koncepciót vezet be
 - Még további feladat, ami az eredetire épít és valamilyen új koncepciót vezet be
 - stb.
 
-## Megjegyzések tanárok számára (opcionális)
+### Megjegyzések tanárok számára (opcionális)
 
 Megjegyzések a tanárok számára a feladattal és/vagy megoldásokkal kapcsolatban
 
-## Hivatkozások (opcionális)
+### Hivatkozások (opcionális)
 
 - [`functionName1` dokumentáció (MDN)][1]
 - [`functionName2` dokumentáció (MDN)][2]

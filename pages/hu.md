@@ -5,17 +5,16 @@ tasks: !file tasks.yaml
 ## Ujjgyakorlatok
 
 {{#tasks.kata}}
-- **[{{hu.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.description}}
+- **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
 {{/tasks.kata}}
 
 ## Komplex feladatok
 
 {{#tasks.complex}}
-- **[{{hu.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.description}}
+- **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
 {{/tasks.complex}}
-
 ## Alkalmazások
 
 {{#tasks.application}}
-- **[{{hu.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.description}}
+- **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
 {{/tasks.application}}

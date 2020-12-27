@@ -1,4 +1,4 @@
-# Counting circles
+## Counting circles
 
 Create an `input` field, which reacts to the `input` event and counts the number of "small circles" in the entered value the following way:
 
@@ -9,7 +9,7 @@ Create an `input` field, which reacts to the `input` event and counts the number
 
 Display the result in the `output` field.
 
-## Examples
+### Examples
 
 - 6 ➡ 1
 - 8 ➡ 2
@@ -18,6 +18,6 @@ Display the result in the `output` field.
 - 123457 ➡ 0
 - foo9bar8 ➡ 3
 
-## Notes to teachers
+### Notes to teachers
 
 The three solutions aren't three steps, but rather three different ideas, relying on more and more complex JavaScript features.
