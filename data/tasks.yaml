@@ -8,5 +8,8 @@ kata:
   - id: circle-counter
     hu: !file ../tasks/circle-counter/meta.hu.yaml
     en: !file ../tasks/circle-counter/meta.en.yaml
+  - id: planet-rings
+    hu: !file ../tasks/planet-rings/meta.hu.yaml
+    en: !file ../tasks/planet-rings/meta.en.yaml
 complex:
 application:
