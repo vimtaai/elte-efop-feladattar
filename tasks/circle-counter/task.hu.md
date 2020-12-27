@@ -9,15 +9,15 @@ Készíts egy olyan beviteli mezőt (`input`), mely `input` eseményre megszámo
 
 Jelenítsd meg az eredményt az `output` elemben!
 
-## Minta be- és kimenetek
+## Példák
 
-- 6 &rarr; 1
-- 8 &rarr; 2
-- 69 &rarr; 2
-- 1000 &rarr; 3
-- 123457 &rarr; 0
-- foo9bar8 &rarr; 3
+- 6 ➡ 1
+- 8 ➡ 2
+- 69 ➡ 2
+- 1000 ➡ 3
+- 123457 ➡ 0
+- foo9bar8 ➡ 3
 
-## Megjegyzés
+## Megjegyzések tanárok számára
 
-A három megoldás nem a megoldás lépései, hanem egyre bonyolultabb, illetve a JavaScript lehetőségeit egyre jobban kihasználó, eltérő megoldások
+A három megoldás nem a megoldás lépései, hanem egyre bonyolultabb, illetve a JavaScript lehetőségeit egyre jobban kihasználó, eltérő megoldások.

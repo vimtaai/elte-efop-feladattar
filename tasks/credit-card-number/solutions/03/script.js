@@ -13,14 +13,15 @@ function handleCardInput() {
     cardNumber.value.length === 12 ||
     cardNumber.value.length === 19
   ) {
-    cardNumber.value =
-      cardNumber.value.slice(0, len - 1) + " - " + cardNumber.value.slice(-1);
+    cardNumber.value = cardNumber.value.slice(0, len - 1) + " - " + cardNumber.value.slice(-1);
   } else if (cardNumber.value.slice(-3) === " - ") {
     cardNumber.value = card.value.slice(0, cardNumber.value.length - 3);
   }
+
   if (len > 25) {
     card.value = card.value.slice(0, 25);
   }
+
   if (len > 0) {
     if (cardNumber.value[0] === "5") {
       cardType.innerHTML = mastercard + "MasterCard";

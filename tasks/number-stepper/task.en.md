@@ -4,8 +4,8 @@ Your task is to create an input field (`input`) that has a `-` button on the lef
 
 ## Additional tasks
 
-1) Create an option for specifying a minimum and a maximum value for the input using data attributes (`data-min`, `data-max`). Make it so that it is not possible to exceed the boundaries using the stepping buttons: if the field reaches its minimum value then the `-` button should become disabled. If it reaches the maximum value then the `+` button should be disabled. 
-2) Generate the `-` and `+` buttons automatically with JavaScript for all input fields that have the `stepper` class.
+- Create an option for specifying a minimum and a maximum value for the input using data attributes (`data-min`, `data-max`). Make it so that it is not possible to exceed the boundaries using the stepping buttons: if the field reaches its minimum value then the `-` button should become disabled. If it reaches the maximum value then the `+` button should be disabled. 
+- Generate the `-` and `+` buttons automatically with JavaScript for all input fields that have the `stepper` class.
 
 ## Notes to teachers
 

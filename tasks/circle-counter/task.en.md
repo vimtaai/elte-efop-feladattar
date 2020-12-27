@@ -9,15 +9,15 @@ Create an `input` field, which reacts to the `input` event and counts the number
 
 Display the result in the `output` field.
 
-## Sample input-output values:
+## Examples
 
-- 6 &rarr; 1
-- 8 &rarr; 2
-- 69 &rarr; 2
-- 1000 &rarr; 3
-- 123457 &rarr; 0
-- foo9bar8 &rarr; 3
+- 6 ➡ 1
+- 8 ➡ 2
+- 69 ➡ 2
+- 1000 ➡ 3
+- 123457 ➡ 0
+- foo9bar8 ➡ 3
 
-## Note
+## Notes to teachers
 
 The three solutions aren't three steps, but rather three different ideas, relying on more and more complex JavaScript features.

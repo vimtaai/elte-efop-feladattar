@@ -4,8 +4,8 @@ Készíts egy olyan beviteli mezőt (`input`), melytől balra egy `-`, jobbra pe
 
 ## További feladatok
 
-1) Lehessen megadni egy minimum és egy maximum értéket a beviteli mezőnek data attribútumokon keresztül (`data-min`, `data-max`). Léptetéssel ne lehessen túllépni ezeken az értékeken: ha a mező értéke eléri a minimumot, akkor a `-`, ha a maximumot éri el, akkor a `+` gomb váljon inaktívvá!
-2) A `-` és a `+` gombokat automatikusan, JavaScript segítségével hozd létre minden olyan beviteli mező mellett, amely a `stepper` stílusosztállyal rendelkezik!
+- Lehessen megadni egy minimum és egy maximum értéket a beviteli mezőnek data attribútumokon keresztül (`data-min`, `data-max`). Léptetéssel ne lehessen túllépni ezeken az értékeken: ha a mező értéke eléri a minimumot, akkor a `-`, ha a maximumot éri el, akkor a `+` gomb váljon inaktívvá!
+- A `-` és a `+` gombokat automatikusan, JavaScript segítségével hozd létre minden olyan beviteli mező mellett, amely a `stepper` stílusosztállyal rendelkezik!
 
 ## Megjegyzések tanárok számára
 
