@@ -6,7 +6,7 @@
 - [x] Karika számláló
 - [x] Bankkártya szám
 - [ ] Számkitalálós
-- [ ] Valós idejű keresőmező
+- [x] Valós idejű keresőmező
 - [ ] Details/Summary
 - [ ] Accordion komponens
 - [ ] Tab control komponens
@@ -17,6 +17,9 @@
 - [ ] Csővezeték játék
 - [ ] Színösszekötős játék
 - [ ] Among us tasks: buy beverage, prime shields, record temperature, start reactor (Simon says), unlock manifolds
+- [x] Delegálás
+- [x] Legördülő lista
+- [x] Táblázat generálás
 
 ## Canvas feladatok
 

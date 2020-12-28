@@ -34,5 +34,33 @@ kata:
     en:
       meta: !file ../tasks/starry-sky/meta.en.yaml
       task: !file ../tasks/starry-sky/task.en.md
+  - id: table-generation
+    hu:
+      meta: !file ../tasks/table-generation/meta.hu.yaml
+      task: !file ../tasks/table-generation/task.hu.md
+    en:
+      meta: !file ../tasks/table-generation/meta.en.yaml
+      task: !file ../tasks/table-generation/task.en.md
+  - id: comma-insertion
+    hu:
+      meta: !file ../tasks/comma-insertion/meta.hu.yaml
+      task: !file ../tasks/comma-insertion/task.hu.md
+    en:
+      meta: !file ../tasks/comma-insertion/meta.en.yaml
+      task: !file ../tasks/comma-insertion/task.en.md
+  - id: filter-settlements
+    hu:
+      meta: !file ../tasks/filter-settlements/meta.hu.yaml
+      task: !file ../tasks/filter-settlements/task.hu.md
+    en:
+      meta: !file ../tasks/filter-settlements/meta.en.yaml
+      task: !file ../tasks/filter-settlements/task.en.md
+  - id: table-coloring
+    hu:
+      meta: !file ../tasks/table-coloring/meta.hu.yaml
+      task: !file ../tasks/table-coloring/task.hu.md
+    en:
+      meta: !file ../tasks/table-coloring/meta.en.yaml
+      task: !file ../tasks/table-coloring/task.en.md
 complex:
 application:
