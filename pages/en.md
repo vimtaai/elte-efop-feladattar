@@ -8,7 +8,7 @@ tasks: !file tasks.yaml
 - **[{{en.meta.name}}](#!/../tasks/{{id}}/task.en.md)**: {{en.meta.description}}
 {{/tasks.kata}}
 
-## Complex excersises
+## Complex exercises
 
 {{#tasks.complex}}
 - **[{{en.meta.name}}](#!/../tasks/{{id}}/task.en.md)**: {{en.meta.description}}
