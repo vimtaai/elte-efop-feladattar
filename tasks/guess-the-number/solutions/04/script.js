@@ -1,0 +1,67 @@
+const newGameButton = document.querySelector("#new-game-button");
+const minField = document.querySelector("#min-field");
+const maxField = document.querySelector("#max-field");
+
+const questionField = document.querySelector("#question-field");
+const guessField = document.querySelector("#guess-field");
+const guessButton = document.querySelector("#guess-button");
+const answer = document.querySelector("#info");
+
+let number = 0,
+  originalNumber = 0,
+  guessed = true,
+  gameRunning = false;
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
+function check(direction, guess) {
+  if (direction == "greater") return number > guess;
+  if (direction == "smaller") return number < guess;
+  return number == guess;
+}
+
+newGameButton.addEventListener("click", () => {
+  let min = parseInt(minField.value),
+    max = parseInt(maxField.value);
+  if (min >= max) {
+    answer.innerHTML = "The minimum value should be smaller than the maximum value.";
+    return;
+  }
+
+  answer.innerHTML = `I thougt of a number from ${min} to ${max}. Try to guess it!`;
+  if (!guessed)
+    answer.innerHTML += ` The previous original number was ${originalNumber}, and the current number is ${number}.`;
+
+  number = originalNumber = getRandomInt(min, max + 1);
+  guessed = false;
+  gameRunning = true;
+});
+
+guessButton.addEventListener("click", () => {
+  if (!gameRunning) {
+    answer.innerHTML = `The game is not running, try starting a new game!`;
+    return;
+  }
+
+  let question = questionField.value;
+  let guess = parseInt(guessField.value);
+  let checked = check(question, guess);
+
+  if (question == "equal" && checked) {
+    answer.innerHTML = `You guessed the number! It was ${number}, orignally starting from ${originalNumber}.`;
+    guessed = true;
+    gameRunning = false;
+  } else {
+    if (checked) {
+      answer.innerHTML = "Yes";
+    } else {
+      let change = Math.pow(-1, getRandomInt(0, 2));
+      number = number + change;
+      answer.innerHTML = `No. The number was ${change > 0 ? "increased" : "decreased"} by 1.`;
+    }
+  }
+});

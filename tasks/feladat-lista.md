@@ -5,7 +5,7 @@
 - [x] Léptethető szám mező
 - [x] Karika számláló
 - [x] Bankkártya szám
-- [ ] Számkitalálós
+- [x] Számkitalálós
 - [x] Valós idejű keresőmező
 - [ ] Details/Summary
 - [ ] Accordion komponens

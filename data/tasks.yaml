@@ -69,5 +69,12 @@ kata:
     en:
       meta: !file ../tasks/minesweeper/meta.en.yaml
       task: !file ../tasks/minesweeper/task.en.md
+  - id: guess-the-number
+    hu:
+      meta: !file ../tasks/guess-the-number/meta.hu.yaml
+      task: !file ../tasks/guess-the-number/task.hu.md
+    en:
+      meta: !file ../tasks/guess-the-number/meta.en.yaml
+      task: !file ../tasks/guess-the-number/task.en.md
 complex:
 application:
