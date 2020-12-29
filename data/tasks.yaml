@@ -27,6 +27,13 @@ kata:
     en:
       meta: !file ../tasks/planet-rings/meta.en.yaml
       task: !file ../tasks/planet-rings/task.en.md
+  - id: drawing-pacman
+    hu:
+      meta: !file ../tasks/drawing-pacman/meta.hu.yaml
+      task: !file ../tasks/drawing-pacman/task.hu.md
+    en:
+      meta: !file ../tasks/drawing-pacman/meta.en.yaml
+      task: !file ../tasks/drawing-pacman/task.en.md
   - id: starry-sky
     hu:
       meta: !file ../tasks/starry-sky/meta.hu.yaml
@@ -62,6 +69,8 @@ kata:
     en:
       meta: !file ../tasks/table-coloring/meta.en.yaml
       task: !file ../tasks/table-coloring/task.en.md
+complex:
+application:
   - id: minesweeper
     hu:
       meta: !file ../tasks/minesweeper/meta.hu.yaml
@@ -69,5 +78,3 @@ kata:
     en:
       meta: !file ../tasks/minesweeper/meta.en.yaml
       task: !file ../tasks/minesweeper/task.en.md
-complex:
-application:

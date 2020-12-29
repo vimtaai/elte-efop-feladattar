@@ -11,7 +11,7 @@
 - [ ] Accordion komponens
 - [ ] Tab control komponens
 - [ ] Iránytű (egérre)
-- [ ] Aknakereső
+- [x] Aknakereső
 - [ ] Robotos játék
 - [ ] Set kártyajáték
 - [ ] Csővezeték játék
@@ -26,6 +26,7 @@
 - [x] Rajzoljunk bolygót, melynek gyűrűi vannak
 - [x] Rajzoljunk csillagos égboltot
 - [x] Rajzoljunk csillagot oda, ahova kattintottunk
+- [x] Pacman rajzolás
 - [ ] Térkép rajzolása
 - [ ] Iránytű (egérre)
 - [ ] Szimuláljuk a naprendszer működését + Vénusz - Föld
