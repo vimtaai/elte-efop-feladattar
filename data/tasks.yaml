@@ -69,6 +69,13 @@ kata:
     en:
       meta: !file ../tasks/table-coloring/meta.en.yaml
       task: !file ../tasks/table-coloring/task.en.md
+  - id: guess-the-number
+    hu:
+      meta: !file ../tasks/guess-the-number/meta.hu.yaml
+      task: !file ../tasks/guess-the-number/task.hu.md
+    en:
+      meta: !file ../tasks/guess-the-number/meta.en.yaml
+      task: !file ../tasks/guess-the-number/task.en.md
 complex:
 application:
   - id: minesweeper
