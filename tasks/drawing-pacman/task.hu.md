@@ -2,7 +2,6 @@
 
 Rajzold meg Pacman-t, a híres videójáték-karaktert a vászonra!
 
-
 ### További feladatok
 
 - Forgasd el a rajzot 45 fokkal!

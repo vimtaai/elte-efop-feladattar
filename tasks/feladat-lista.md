@@ -29,7 +29,8 @@
 - [x] Pacman rajzolás
 - [ ] Térkép rajzolása
 - [ ] Iránytű (egérre)
-- [ ] Szimuláljuk a naprendszer működését + Vénusz - Föld
+- [x] Szimuláljuk a naprendszer működését
+- [ ] Mandala rajzolás
 - [ ] Pattogó labda + gravitáció
 - [ ] Pong játék
 - [ ] Flappy bird

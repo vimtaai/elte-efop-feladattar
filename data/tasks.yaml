@@ -20,27 +20,6 @@ kata:
     en:
       meta: !file ../tasks/circle-counter/meta.en.yaml
       task: !file ../tasks/circle-counter/task.en.md
-  - id: planet-rings
-    hu:
-      meta: !file ../tasks/planet-rings/meta.hu.yaml
-      task: !file ../tasks/planet-rings/task.hu.md
-    en:
-      meta: !file ../tasks/planet-rings/meta.en.yaml
-      task: !file ../tasks/planet-rings/task.en.md
-  - id: drawing-pacman
-    hu:
-      meta: !file ../tasks/drawing-pacman/meta.hu.yaml
-      task: !file ../tasks/drawing-pacman/task.hu.md
-    en:
-      meta: !file ../tasks/drawing-pacman/meta.en.yaml
-      task: !file ../tasks/drawing-pacman/task.en.md
-  - id: starry-sky
-    hu:
-      meta: !file ../tasks/starry-sky/meta.hu.yaml
-      task: !file ../tasks/starry-sky/task.hu.md
-    en:
-      meta: !file ../tasks/starry-sky/meta.en.yaml
-      task: !file ../tasks/starry-sky/task.en.md
   - id: table-generation
     hu:
       meta: !file ../tasks/table-generation/meta.hu.yaml
@@ -76,7 +55,37 @@ kata:
     en:
       meta: !file ../tasks/guess-the-number/meta.en.yaml
       task: !file ../tasks/guess-the-number/task.en.md
+  - id: drawing-pacman
+    hu:
+      meta: !file ../tasks/drawing-pacman/meta.hu.yaml
+      task: !file ../tasks/drawing-pacman/task.hu.md
+    en:
+      meta: !file ../tasks/drawing-pacman/meta.en.yaml
+      task: !file ../tasks/drawing-pacman/task.en.md
+  - id: planet-rings
+    hu:
+      meta: !file ../tasks/planet-rings/meta.hu.yaml
+      task: !file ../tasks/planet-rings/task.hu.md
+    en:
+      meta: !file ../tasks/planet-rings/meta.en.yaml
+      task: !file ../tasks/planet-rings/task.en.md
+  - id: starry-sky
+    hu:
+      meta: !file ../tasks/starry-sky/meta.hu.yaml
+      task: !file ../tasks/starry-sky/task.hu.md
+    en:
+      meta: !file ../tasks/starry-sky/meta.en.yaml
+      task: !file ../tasks/starry-sky/task.en.md
+
 complex:
+  - id: solar-system
+    hu:
+      meta: !file ../tasks/solar-system/meta.hu.yaml
+      task: !file ../tasks/solar-system/task.hu.md
+    en:
+      meta: !file ../tasks/solar-system/meta.en.yaml
+      task: !file ../tasks/solar-system/task.en.md
+
 application:
   - id: minesweeper
     hu:
