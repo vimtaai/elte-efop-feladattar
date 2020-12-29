@@ -76,6 +76,13 @@ kata:
     en:
       meta: !file ../tasks/starry-sky/meta.en.yaml
       task: !file ../tasks/starry-sky/task.en.md
+  - id: compass
+    hu:
+      meta: !file ../tasks/compass/meta.hu.yaml
+      task: !file ../tasks/compass/task.hu.md
+    en:
+      meta: !file ../tasks/compass/meta.en.yaml
+      task: !file ../tasks/compass/task.en.md
 
 complex:
   - id: solar-system

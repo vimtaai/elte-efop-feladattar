@@ -10,7 +10,7 @@
 - [ ] Details/Summary
 - [ ] Accordion komponens
 - [ ] Tab control komponens
-- [ ] Iránytű (egérre)
+- [x] Iránytű (egérre)
 - [x] Aknakereső
 - [ ] Robotos játék
 - [ ] Set kártyajáték
@@ -28,7 +28,7 @@
 - [x] Rajzoljunk csillagot oda, ahova kattintottunk
 - [x] Pacman rajzolás
 - [ ] Térkép rajzolása
-- [ ] Iránytű (egérre)
+- [x] Iránytű (egérre)
 - [x] Szimuláljuk a naprendszer működését
 - [ ] Mandala rajzolás
 - [ ] Pattogó labda + gravitáció
