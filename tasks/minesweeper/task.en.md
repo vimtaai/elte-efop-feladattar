@@ -16,13 +16,13 @@ Create the classic minesweeper game. Some of the main features are the following
 - Allow the player to set the size of the game map (`N` and `M`) and the number of mines `X`
 - When clicking on a field with no neighboring mines, reveal all connected fields that are guaranteed to have no mines
 - Keep track of the number of mines remaining (flags are used to mark mines)
-- Clicking a field with both buttons that has as many neighboring flags as many neighboring mines should reveal all non-flag neighbors of that field
+- Clicking a revealed field with both buttons that has as many neighboring flags as many neighboring mines should reveal all non-flag neighbors of that field
 
 ### Notes to teachers
 
 It is recommended to split the development into multiple steps:
 
 - State representation
-- State rendering
+- State rendering (rendering functions + CSS)
 - Events and state transitions
 - Incremental addition of new features

@@ -62,5 +62,12 @@ kata:
     en:
       meta: !file ../tasks/table-coloring/meta.en.yaml
       task: !file ../tasks/table-coloring/task.en.md
+  - id: minesweeper
+    hu:
+      meta: !file ../tasks/minesweeper/meta.hu.yaml
+      task: !file ../tasks/minesweeper/task.hu.md
+    en:
+      meta: !file ../tasks/minesweeper/meta.en.yaml
+      task: !file ../tasks/minesweeper/task.en.md
 complex:
 application:
