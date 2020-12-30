@@ -99,6 +99,13 @@ complex:
     en:
       meta: !file ../tasks/solar-system/meta.en.yaml
       task: !file ../tasks/solar-system/task.en.md
+  - id: memory-card
+    hu:
+      meta: !file ../tasks/memory-card/meta.hu.yaml
+      task: !file ../tasks/memory-card/task.hu.md
+    en:
+      meta: !file ../tasks/memory-card/meta.en.yaml
+      task: !file ../tasks/memory-card/task.en.md
 
 application:
   - id: minesweeper

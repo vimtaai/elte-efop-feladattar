@@ -20,6 +20,7 @@
 - [x] Delegálás
 - [x] Legördülő lista
 - [x] Táblázat generálás
+- [x] Memória játék
 
 ## Canvas feladatok
 

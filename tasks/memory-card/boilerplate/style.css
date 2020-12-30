@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+
+#game-utility button{
+    min-width: 10vw;
+    min-height: 5vh;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: #517D81;
+}
+
+#game-utility button:hover{
+    background-color: #7a8174;
+}
