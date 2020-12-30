@@ -7,7 +7,7 @@
 - [x] Bankkártya szám
 - [x] Számkitalálós
 - [x] Valós idejű keresőmező
-- [ ] Details/Summary
+- [x] Details/Summary
 - [ ] Accordion komponens
 - [ ] Tab control komponens
 - [x] Iránytű (egérre)

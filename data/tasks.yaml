@@ -48,6 +48,13 @@ kata:
     en:
       meta: !file ../tasks/table-coloring/meta.en.yaml
       task: !file ../tasks/table-coloring/task.en.md
+  - id: details
+    hu:
+      meta: !file ../tasks/details/meta.hu.yaml
+      task: !file ../tasks/details/task.hu.md
+    en:
+      meta: !file ../tasks/details/meta.en.yaml
+      task: !file ../tasks/details/task.en.md
   - id: guess-the-number
     hu:
       meta: !file ../tasks/guess-the-number/meta.hu.yaml
