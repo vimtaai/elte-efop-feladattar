@@ -1,0 +1,47 @@
+.hidden {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#game-maps table {
+  cursor: pointer;
+}
+
+#game-maps table td {
+  font-size: x-small;
+  width: 10px;
+  height: 10px;
+}
+
+#game-table td,
+#command-table td,
+#user-commands td {
+  width: 50px;
+  height: 50px;
+}
+
+#user-row {
+  display: flex;
+}
+
+#user-start {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 52px;
+  cursor: pointer;
+}
+
+#user-start p {
+  margin: auto;
+}
