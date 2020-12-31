@@ -12,7 +12,7 @@
 - [ ] Tab control komponens
 - [x] Iránytű (egérre)
 - [x] Aknakereső
-- [ ] Robotos játék
+- [x] Robotos játék
 - [ ] Set kártyajáték
 - [ ] Csővezeték játék
 - [ ] Színösszekötős játék

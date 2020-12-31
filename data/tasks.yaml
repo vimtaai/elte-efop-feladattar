@@ -108,6 +108,13 @@ complex:
       task: !file ../tasks/memory-card/task.en.md
 
 application:
+  - id: moving-robot
+    hu:
+      meta: !file ../tasks/moving-robot/meta.hu.yaml
+      task: !file ../tasks/moving-robot/task.hu.md
+    en:
+      meta: !file ../tasks/moving-robot/meta.en.yaml
+      task: !file ../tasks/moving-robot/task.en.md
   - id: minesweeper
     hu:
       meta: !file ../tasks/minesweeper/meta.hu.yaml
