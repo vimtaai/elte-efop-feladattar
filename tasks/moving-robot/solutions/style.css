@@ -7,7 +7,7 @@ table {
 }
 
 td {
-  border: 1px solid black;
+  border: 1px solid #232121;
   text-align: center;
 }
 
@@ -32,16 +32,43 @@ td {
   display: flex;
 }
 
-#user-start {
+#user-start, #user-give-up {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  width: 52px;
+  width: 102px;
   height: 52px;
   text-align: center;
-  border: 1px solid black;
   margin-left: 52px;
   cursor: pointer;
+
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: #517d81;
 }
 
-#user-start p {
+#user-start p, #user-give-up p{
   margin: auto;
+}
+
+.field-grey{
+    background-color: #d3d8de;
+}
+.field-orange{
+    background-color: #fdbe12;
+}
+.field-black{
+    background-color: #232121;
+}
+.field-green{
+    background-color: #55b24c;
+}
+.field-red{
+    background-color: #b10439;
+}
+.field-blue{
+    color: #f1f2f1;
+    background-color: #005597;
 }

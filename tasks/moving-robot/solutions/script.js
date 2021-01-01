@@ -89,6 +89,7 @@ const gameTable = document.querySelector("#game-table");
 const commandTable = document.querySelector("#command-table");
 const userCommandsTable = document.querySelector("#user-commands");
 const userStartButton = document.querySelector("#user-start");
+const userGiveUpButton = document.querySelector("#user-give-up");
 
 const defaultCommands = [
   {
@@ -161,25 +162,25 @@ const levels = [
 function fieldColor(string) {
   switch (string) {
     case "▩":
-      return "lightgray";
+      return "field-grey";
     case "↺":
-      return "orange";
+      return "field-orange";
     case "↻":
-      return "orange";
+      return "field-orange";
     case "◼":
-      return "black";
+      return "field-black";
     case "⮘":
-      return "green";
+      return "field-green";
     case "⮙":
-      return "green";
+      return "field-green";
     case "⮚":
-      return "green";
+      return "field-green";
     case "⮛":
-      return "green";
+      return "field-green";
     case "✹":
-      return "tomato";
+      return "field-red";
     default:
-      return "lightblue";
+      return "field-blue";
   }
 }
 
@@ -382,7 +383,7 @@ function generateTableView() {
     for (const cell of row) {
       let newCell = document.createElement("td");
       newCell.innerHTML = fieldText(cell);
-      newCell.style.backgroundColor = fieldColor(cell);
+      newCell.classList.add(fieldColor(cell));
       newCell.dataset.rowIndex = rowIndex;
       newCell.dataset.colIndex = colIndex;
       newCell.dataset.original = ["⮘", "⮙", "⮚", "⮛"].includes(cell) ? "" : cell;
@@ -407,6 +408,7 @@ function generateCommands() {
     let j = Math.floor(Math.random() * (i + 1));
     [commandQueue[i], commandQueue[j]] = [commandQueue[j], commandQueue[i]];
   }
+  console.log('GENERATE', commandQueue)
 }
 
 function visibleCommandsEmptyPlace() {
@@ -421,7 +423,8 @@ function fillCommands() {
   let emptyIndex = visibleCommandsEmptyPlace();
   if (commandQueue.lengt == 0 || emptyIndex == -1) return;
 
-  visibleCommandQueue[emptyIndex] = commandQueue.pop();
+  visibleCommandQueue[emptyIndex] = commandQueue.pop() ?? 'empty';
+  console.log('FILL',commandQueue)
   fillCommands();
 }
 
@@ -429,13 +432,21 @@ function updateCommandQueueView() {
   commandTable.innerHTML = "";
   let i = 0;
   for (const command of visibleCommandQueue) {
+    if(command == 'empty') continue;
     let newCommand = document.createElement("td");
+    console.log(command, defaultCommands[command])
     newCommand.innerHTML = defaultCommands[command].command;
     newCommand.dataset.index = i;
     newCommand.dataset.commandIndex = defaultCommands[command].index;
     commandTable.appendChild(newCommand);
     i++;
   }
+}
+
+function loseIfRanOutOfCommands(){
+    if(commandQueue.length == 0 && commandTable.querySelectorAll('td').length < 5){
+        endGame(false);
+    }
 }
 
 function setUpUserCommandsView() {
@@ -445,7 +456,7 @@ function setUpUserCommandsView() {
   }
 }
 
-function emptyuserCommandsView() {
+function emptyUserCommandsView() {
   for (const td of userCommandsTable.querySelectorAll("td")) td.innerHTML = "";
 }
 
@@ -453,6 +464,7 @@ function selectCommand(event, command) {
   if (!canClick || userCommands.length == MAX_USER_COMMANDS || command.innerHTML == "") return;
 
   const selectedCommand = defaultCommands[command.dataset.commandIndex];
+  visibleCommandQueue[command.dataset.commandIndex] = 'x';
   userCommandsTable.querySelectorAll("td")[userCommands.length].innerHTML = command.innerHTML;
   command.innerHTML = "";
   userCommands.push(selectedCommand);
@@ -495,11 +507,16 @@ function stepField(dangerousRecursion = false) {
         if (userCommands.length > 0) {
           stepRobot();
         } else {
+          fillCommands();
           updateCommandQueueView();
           updateCurrentPositionView();
-          emptyuserCommandsView();
+          emptyUserCommandsView();
           canClick = true;
-          if (checkWin()) endGame(true);
+          if (checkWin()){
+              endGame(true);
+          }else{
+            loseIfRanOutOfCommands();
+          }
         }
       }
       return;
@@ -594,9 +611,13 @@ function setupGame() {
   fillCommands();
   updateCommandQueueView();
   setUpUserCommandsView();
+}
 
+function setupUserEvents(){
+  delegate(gameMapsTable, ".level", "click", selectMap);
   delegate(commandTable, "td", "click", selectCommand);
   userStartButton.addEventListener("click", stepGame);
+  userGiveUpButton.addEventListener('click', ()=>{endGame(false)})
 }
 
 function setupMaps() {
@@ -608,7 +629,7 @@ function setupMaps() {
       for (const cell of row) {
         let newCell = document.createElement("td");
         newCell.innerHTML = fieldText(cell);
-        newCell.style.backgroundColor = fieldColor(cell);
+        newCell.classList.add(fieldColor(cell));
         newRow.appendChild(newCell);
       }
       newTable.appendChild(newRow);
@@ -620,8 +641,7 @@ function setupMaps() {
     gameMapsTable.appendChild(newLevel);
     i++;
   }
-
-  delegate(gameMapsTable, ".level", "click", selectMap);
+ setupUserEvents();
 }
 
 function selectMap(event, map) {
