@@ -1,0 +1,74 @@
+.hidden {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #232121;
+  text-align: center;
+}
+
+#game-maps table {
+  cursor: pointer;
+}
+
+#game-maps table td {
+  font-size: x-small;
+  width: 10px;
+  height: 10px;
+}
+
+#game-table td,
+#command-table td,
+#user-commands td {
+  width: 50px;
+  height: 50px;
+}
+
+#user-row {
+  display: flex;
+}
+
+#user-start, #user-give-up {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 102px;
+  height: 52px;
+  text-align: center;
+  margin-left: 52px;
+  cursor: pointer;
+
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: #517d81;
+}
+
+#user-start p, #user-give-up p{
+  margin: auto;
+}
+
+.field-grey{
+    background-color: #d3d8de;
+}
+.field-orange{
+    background-color: #fdbe12;
+}
+.field-black{
+    background-color: #232121;
+}
+.field-green{
+    background-color: #55b24c;
+}
+.field-red{
+    background-color: #b10439;
+}
+.field-blue{
+    color: #f1f2f1;
+    background-color: #005597;
+}

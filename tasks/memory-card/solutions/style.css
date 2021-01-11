@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#game-buttons button {
+  width: 10vw;
+  min-height: 5vh;
+  margin: auto;
+
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: #517d81;
+}
+
+#game-buttons button:hover {
+  background-color: #7a8174;
+}
+
+.hidden {
+  display: none;
+}
+
+#game-info {
+  display: flex;
+  margin: auto;
+  width: 25%;
+}
+
+#game-info div {
+  min-width: 10vw;
+  margin: auto;
+}
+
+#game-info div p {
+  display: inline-block;
+}
+
+#game-cards {
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-cards img {
+  margin: 5px;
+  border: 2px solid #517d81;
+  background-color: grey; /*<-- only necessary because of the inproper curves of the vector images*/
+  border-radius: 5px;
+  max-width: 7vw;
+}
+
+#game-cards img:hover {
+  border: 2px dotted #517d81;
+}

@@ -12,13 +12,14 @@
 - [ ] Tab control komponens
 - [x] Iránytű (egérre)
 - [x] Aknakereső
-- [ ] Robotos játék
+- [ENG!] Robotos játék
 - [ ] Set kártyajáték
 - [ ] Csővezeték játék
 - [ ] Színösszekötős játék
 - [x] Delegálás
 - [x] Legördülő lista
 - [x] Táblázat generálás
+- [x] Memória játék
 - [ ] Among us: buy beverage
 - [ ] Among us: prime shields
 - [ ] Among us: record temperature

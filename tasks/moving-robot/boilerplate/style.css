@@ -1,0 +1,20 @@
+/* Use these field colors, if you wish to */
+.field-grey{
+    background-color: #d3d8de;
+}
+.field-orange{
+    background-color: #fdbe12;
+}
+.field-black{
+    background-color: #232121;
+}
+.field-green{
+    background-color: #55b24c;
+}
+.field-red{
+    background-color: #b10439;
+}
+.field-blue{
+    color: #f1f2f1;
+    background-color: #005597;
+}
