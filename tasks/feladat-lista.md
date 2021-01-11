@@ -32,11 +32,16 @@
 - [x] Rajzoljunk csillagos égboltot
 - [x] Rajzoljunk csillagot oda, ahova kattintottunk
 - [x] Pacman rajzolás
+- [ ] Zászló rajzolás
 - [ ] Térkép rajzolása
-- [x] Iránytű (egérre)
-- [x] Szimuláljuk a naprendszer működését
 - [x] Mandala rajzolás
+- [x] Iránytű (egérre)
+- [ ] Hanghullám vizualizáció
+- [ ] Körmozgás - harmonikus rezgés
+- [ ] Ingamozgás
+- [x] Szimuláljuk a naprendszer működését
 - [ ] Pattogó labda + gravitáció
+- [ ] Forgó szivárvány
 - [ ] Pong játék
 - [ ] Flappy bird
 - [ ] Aszteroida játék
