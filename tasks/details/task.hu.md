@@ -1,4 +1,4 @@
-## Feladat neve
+## Összefoglaló és részletek
 
 Készíts egy oldalt, ahol a `.details` elemben található szövegek közül csak az összefoglaló (`.summary`) látszik, míg a részletek (`.text`) csak kattintásra jelennek meg, s újabb kattintásra eltűnnek!
 
