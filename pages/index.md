@@ -2,14 +2,14 @@
 
 ## Web formátum
 
-<div class="two center aligned columns">
-  <a href="#!/hu" class="primary card"><strong>Magyar</strong></a>
-  <a href="#!/en" class="primary card"><strong>English</strong></a>
+<div class="columns:2">
+  <a href="#!/hu" class="button color:primary"><strong>Magyar</strong></a>
+  <a href="#!/en" class="button color:primary"><strong>English</strong></a>
 </div>
 
 ## Könyv formátum
 
-<div class="two center aligned columns">
-  <a href="#!/book-hu" class="primary card"><strong>Magyar nyelvű könyv</strong></a>
-  <a href="#!/book-en" class="primary card"><strong>English book</strong></a>
+<div class="columns:2">
+  <a href="#!/book-hu" class="button color:primary"><strong>Magyar nyelvű könyv</strong></a>
+  <a href="#!/book-en" class="button color:primary"><strong>English book</strong></a>
 </div>

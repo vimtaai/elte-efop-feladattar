@@ -16,10 +16,14 @@
 - [ ] Set kártyajáték
 - [ ] Csővezeték játék
 - [ ] Színösszekötős játék
-- [ ] Among us tasks: buy beverage, prime shields, record temperature, start reactor (Simon says), unlock manifolds
 - [x] Delegálás
 - [x] Legördülő lista
 - [x] Táblázat generálás
+- [ ] Among us: buy beverage
+- [ ] Among us: prime shields
+- [ ] Among us: record temperature
+- [ ] Among us: start reactor (Simon says)
+- [ ] Among us: unlock manifolds
 
 ## Canvas feladatok
 
@@ -30,11 +34,16 @@
 - [ ] Térkép rajzolása
 - [x] Iránytű (egérre)
 - [x] Szimuláljuk a naprendszer működését
-- [ ] Mandala rajzolás
+- [x] Mandala rajzolás
 - [ ] Pattogó labda + gravitáció
 - [ ] Pong játék
 - [ ] Flappy bird
 - [ ] Aszteroida játék
 - [ ] Zombis játék
 - [ ] Tankos játék
-- [ ] Among us tasks: align engine output, calibrate distributor, clear asteroids, fix wiring, prime shields, swipe card
+- [ ] Among us: align engine output
+- [ ] Among us: calibrate distributor
+- [ ] Among us: clear asteroids
+- [ ] Among us: fix wiring
+- [ ] Among us: prime shields
+- [ ] Among us: swipe card

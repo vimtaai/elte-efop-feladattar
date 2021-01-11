@@ -83,6 +83,13 @@ kata:
     en:
       meta: !file ../tasks/starry-sky/meta.en.yaml
       task: !file ../tasks/starry-sky/task.en.md
+  - id: mandala
+    hu:
+      meta: !file ../tasks/mandala/meta.hu.yaml
+      task: !file ../tasks/mandala/task.hu.md
+    en:
+      meta: !file ../tasks/mandala/meta.en.yaml
+      task: !file ../tasks/mandala/task.en.md
   - id: compass
     hu:
       meta: !file ../tasks/compass/meta.hu.yaml

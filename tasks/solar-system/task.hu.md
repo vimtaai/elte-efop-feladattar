@@ -14,7 +14,7 @@ Készíts szimulációt a naprendszerben a bolygók mozgásáról! A vászon kö
 - A realizmus jegyében a bolygók pályájának sugara és a körmozgás sebességét lehet a valós adatokhoz arányítani.
 - Érdemes bevezetni egy arányossági tényezőt a szimuláció sebességébe, hogy könnyen állítható legyen a szimuláció sebessége.
 - A holdak kirajzolása könnyen megvalósítható koordinátarendszer-transzformációkkal.
-- A holdakat lehet a bolygókat leíró objektumok saját adattagaiként tárolni, így (a valósághoz hasonlóan) egy hierarchikus rendszert kapunk, melyben minden égitest valami körül kering. Ezzel a módszerrel egyetlen égitestre (nap) "felfűzhető" a teljes naprendszer.
+- A holdakat lehet a bolygókat leíró objektumok saját adattagaiként tárolni, így (a valósághoz hasonlóan) egy hierarchikus rendszert kapunk, melyben minden égitest (a nap kivétel, ami nem mozog) egy másik körül kering. Ezzel a módszerrel egyetlen égitestre (nap) "felfűzhető" a teljes naprendszer.
 - Ez a szimuláció rengeteg további funkcióval bővíthető HTML vezérlők és eseménykezelés hozzáadásával.
 
 ### Hivatkozások
