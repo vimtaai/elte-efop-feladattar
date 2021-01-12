@@ -28,8 +28,13 @@ Amennyiben a játékos bármely két parancs közt falra vagy darálóra érkezi
 
 Ha a játék véget ért (akár győzelemmel, akár vereséggel), jelezzük azt a játékosnak, és lehessen újra pályát választani. Amennyiben egy játék fut, nem lehet újat kezdeni, amíg a játékos nem nyer/veszít, vagy fel nem adja.
 
-Az egyik pálya lehetséges megjelenítése:  
-![A játéktér](src/main-map.png)
+Az egyik pálya lehetséges megjelenítése:
+
+<div class="align:center">
+
+  ![A játéktér](tasks/moving-robot/assets/main-map.png)
+
+</div>
 
 ### Megjegyzések tanárok számára
 

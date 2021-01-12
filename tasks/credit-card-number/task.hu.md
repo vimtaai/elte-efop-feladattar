@@ -13,7 +13,7 @@ Készíts egy beviteli mezőt (`input`), melybe a felhasználó a bankkártyáj�
 
 ### Megjegyzések tanárok számára
 
-- Az `input.value` karaktertömbként idexelhető és átírható, illetve `.length` tulajdonsággal is rendelkezik.
+- Az `input.value` karaktertömbként indexelhető és átírható, illetve `.length` tulajdonsággal is rendelkezik.
 
 ### Hivatkozások
 

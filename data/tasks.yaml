@@ -90,6 +90,13 @@ kata:
     en:
       meta: !file ../tasks/mandala/meta.en.yaml
       task: !file ../tasks/mandala/task.en.md
+  - id: rainbow
+    hu:
+      meta: !file ../tasks/rainbow/meta.hu.yaml
+      task: !file ../tasks/rainbow/task.hu.md
+    en:
+      meta: !file ../tasks/rainbow/meta.en.yaml
+      task: !file ../tasks/rainbow/task.en.md
   - id: compass
     hu:
       meta: !file ../tasks/compass/meta.hu.yaml

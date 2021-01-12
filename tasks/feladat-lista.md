@@ -33,15 +33,15 @@
 - [x] Rajzoljunk csillagot oda, ahova kattintottunk
 - [x] Pacman rajzolás
 - [ ] Zászló rajzolás
-- [ ] Térkép rajzolása
+- [ ] Térkép rajzolás
 - [x] Mandala rajzolás
+- [x] Szivárvány rajzolás
 - [x] Iránytű (egérre)
 - [ ] Hanghullám vizualizáció
 - [ ] Körmozgás - harmonikus rezgés
 - [ ] Ingamozgás
 - [x] Szimuláljuk a naprendszer működését
 - [ ] Pattogó labda + gravitáció
-- [ ] Forgó szivárvány
 - [ ] Pong játék
 - [ ] Flappy bird
 - [ ] Aszteroida játék
