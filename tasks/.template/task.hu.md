@@ -2,16 +2,16 @@
 
 A feladat részletes leírása.
 
-### Példák (opcionális)
-
-- Bemenet 1 ➡ Kimenet 1
-- Bemenet 2 ➡ Kimenet 2
-- stb.
-
 ### További feladatok (opcionális)
 
 - További feladat, ami az eredetire épít és valamilyen új koncepciót vezet be
 - Még további feladat, ami az eredetire épít és valamilyen új koncepciót vezet be
+- stb.
+
+### Példák (opcionális)
+
+- Bemenet 1 ➡ Kimenet 1
+- Bemenet 2 ➡ Kimenet 2
 - stb.
 
 ### Megjegyzések tanárok számára (opcionális)

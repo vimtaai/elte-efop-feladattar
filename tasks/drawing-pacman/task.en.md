@@ -7,6 +7,14 @@ Draw a picture of the famous video game mascot Pacman on a canvas.
 - Rotate the image with 45 degrees
 - Wrap your Pacman drawing program into a function. The function should take four arguments: `x`, `y`, `size` and `rotation`. The `rotation` argument should default to `0`. Calling the function should draw the image of Pacman at the given `(x;y)` coordinates in the given size (`size` can be either the radius or the diameter) rotated by `rotation` degrees. 
 
+### Examples
+
+<div class="align:center">
+
+![Pacman](tasks/drawing-pacman/assets/pacman.png)
+
+</div>
+
 ### Notes to teachers
 
 - It is recommended to create a function for converting degrees to radians.

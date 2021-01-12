@@ -7,6 +7,15 @@ A feladatod egy olyan program készítése, melynek segítségével egy gombnyom
 - Adj hozzá az oldalhoz egy szín beviteli mezőt. Használd az ebben megadott színt a mandala megrajzolására.
 - Alakítsd át a programot úgy, hogy ne legyen szükség a gomb megnyomására! Az oldal betöltésekor automatikusan rajzolódjon meg az ábra, illetve ha bármelyik paraméter módosul, akkor automatikusan az ábra is frissüljön!
 
+### Példák
+
+<div class="align:center">
+
+![Példa mandala (11, 5)](tasks/mandala/assets/mandala.png)
+![Példa mandala (14, 4)](tasks/mandala/assets/mandala-2.png)
+
+</div>
+
 ### Megjegyzések tanárok számára
 
 - Érdemes alapból a vászon közepébe helyezni a koordinátarendszer közepét.

@@ -6,6 +6,14 @@ Feladatod, hogy csillagos égboltot rajzolj! Készíts egy függvényt, ami vél
 
 - Egészítsd ki a programot úgy, hogy ha a tetszőleges helyen az égboltra kattintunk, akkor ott jelenjen meg egy új csillag!
 
+### Példák
+
+<div class="align:center">
+
+![Example starry sky](tasks/starry-sky/assets/starry-sky.png)
+
+</div>
+
 ### Megjegyzések tanárok számára
 
 - Érdemes implementálni egy függvényt, ami véletlenszerű (egész) számot tud generálni tetszőleges `a` és `b` érték között.

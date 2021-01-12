@@ -21,15 +21,15 @@ function init() {
   const venus = new Satellite(108, 6, "orange", 360 / 225);
   sun.satellites.push(venus);
   const earth = new Satellite(149, 6, "lightblue", 360 / 365);
+  const moon = new Satellite(16, 3, "white", 360 / 75);
   earth.satellites.push(moon);
   sun.satellites.push(earth);
-  const moon = new Satellite(16, 3, "white", 360 / 75);
   const mars = new Satellite(227, 3, "orangered", 360 / 687);
+  const phobos = new Satellite(6, 2, "darkgray", 360 / 10);
+  const deimos = new Satellite(12, 1, "beige", 360 / 30);
   mars.satellites.push(phobos);
   mars.satellites.push(deimos);
   sun.satellites.push(mars);
-  const phobos = new Satellite(6, 2, "darkgray", 360 / 10);
-  const deimos = new Satellite(12, 1, "beige", 360 / 30);
 }
 
 function update(dt) {

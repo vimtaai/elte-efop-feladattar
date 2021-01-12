@@ -8,6 +8,14 @@ Create a simulation of the movement of the planets in the solar system. All plan
 - Store the planets of your simulation in an array so that it is easy to add more planets in the code.
 - Make it possible so that each planet can have their own moons. Moons orbit around planets, not the sun.
 
+### Examples
+
+<div class="align:center">
+
+![Solar system model](tasks/solar-system/assets/solar-system.png)
+
+</div>
+
 ### Notes to teachers
 
 - It is recommended to translate the coordinate system to the center of the canvas.

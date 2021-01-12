@@ -4,7 +4,7 @@ An array of settlements is given, and we'd like to list them using a filter. Cra
 
 ### Additional tasks
 
-- Make the program case-insensitive (capitel letters should not matter)!
+- Make the program case-insensitive (capital letters should not matter)!
 - Remove the search button, and make it so that after every new letter the settlements are listed again.
 
 ### Examples (including both additional task)

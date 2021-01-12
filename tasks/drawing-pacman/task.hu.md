@@ -7,6 +7,14 @@ Rajzold meg Pacman-t, a híres videójáték-karaktert a vászonra!
 - Forgasd el a rajzot 45 fokkal!
 - A kódodból készíts függvényt! A függvénynek legyen négy paramétere: `x`, `y`, `size` és `rotation`! A `rotation` paraméter alapértelmezett értéke legyen `0`! A függvény rajzolja ki Pacman képét az adott `(x;y)` koordinátákba az adott méretben (a `size` paraméter jelentheti a sugarat vagy az átmérőt is), `rotation` fokkal elforgatva!
 
+### Példák
+
+<div class="align:center">
+
+![Pacman](tasks/drawing-pacman/assets/pacman.png)
+
+</div>
+
 ### Megjegyzések tanárok számára
 
 - Érdemes a fokokat radiánra váltást függvényben megvalósítani.

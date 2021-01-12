@@ -8,6 +8,14 @@ Készíts szimulációt a naprendszerben a bolygók mozgásáról! A vászon kö
 - A szimulációban szereplő bolygókat tárold tömbben, hogy kód szinten könnyű legyen új bolygókat hozzáadni!
 - Az egyes bolygóknak lehessenek saját holdjai, melyek nem a nap, hanem a bolygó körül keringenek!
 
+### Példák
+
+<div class="align:center">
+
+![Naprendszer modell](tasks/solar-system/assets/solar-system.png)
+
+</div>
+
 ### Megjegyzések tanárok számára
 
 - Érdemes alapból a vászon közepébe helyezni a koordinátarendszer közepét.

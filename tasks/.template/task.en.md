@@ -2,16 +2,16 @@
 
 Detailed description of the task.
 
-### Examples (optional)
-
-- Input 1 ➡ Output 1
-- Input 2 ➡ Output 2
-- etc.
-
 ### Additional tasks (optional)
 
 - Task that builds upon the original to introduce some new concept
 - Yet another task that builds upon the original to introduce some new concept
+- etc.
+
+### Examples (optional)
+
+- Input 1 ➡ Output 1
+- Input 2 ➡ Output 2
 - etc.
 
 ### Notes to teachers (optional)

@@ -2,18 +2,17 @@
 
 Feladatod, hogy készíts egy szivárványt ábrázoló grafikát a vászonra! Ehhez rajzolj a vászonra adott középponttal rajzolj folyamatosan növekvő sugarú és változó színű félköröket vagy félkoríveket!
 
+### További feladatok
+
+- Animáld a szivárványt a következőképp: az egyes félkörök/félkörívek folyamatosan forognak eltérő sebességgel. A legbelső félkör sebessége legyen 1 egység. Az azt követőé 2 egység, az azt követőé 3 egység, stb.
+
 ### Példák
 
 <div class="columns:2 align:center">
 
-  ![A kész szivárvány](tasks/rainbow/assets/rainbow.png)
-  ![Az animált szivárvány](tasks/rainbow/assets/rainbow-animation.gif)
+![A kész szivárvány](tasks/rainbow/assets/rainbow.png)
 
 </div>
-
-### További feladatok
-
-- Animáld a szivárványt a következőképp: az egyes félkörök/félkörívek folyamatosan forognak eltérő sebességgel. A legbelső félkör sebessége legyen 1 egység. Az azt követőé 2 egység, az azt követőé 3 egység, stb.
 
 ### Megjegyzések tanárok számára
 

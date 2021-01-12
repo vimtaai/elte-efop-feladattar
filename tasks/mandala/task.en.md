@@ -7,6 +7,15 @@ Your task is to create program for drawing mandala-like images on a click of a b
 - Add a new color input to the page. Use the selected color to draw the mandala.
 - Update your program so that you don't need a button. Draw the picture automatically when the page loads and whenever any of the parameters change.
 
+### Examples
+
+<div class="align:center">
+
+![Example mandala (11, 5)](tasks/mandala/assets/mandala.png)
+![Example mandala (14, 4)](tasks/mandala/assets/mandala-2.png)
+
+</div>
+
 ### Notes to teachers
 
 - It is recommended to translate the coordinate system to the center of the canvas.
