@@ -8,7 +8,7 @@ Feladatod, hogy készíts egy szivárványt ábrázoló grafikát a vászonra! E
 
 ### Példák
 
-<div class="columns:2 align:center">
+<div class="align:center">
 
 ![A kész szivárvány](tasks/rainbow/assets/rainbow.png)
 

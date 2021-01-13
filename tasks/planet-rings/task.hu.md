@@ -7,6 +7,14 @@ Feladatod, hogy rajzolj egy bolygót (színes kör) körülötte gyűrűkkel (el
 - Alakítsd át a rajzoló függvényedet úgy, hogy az négy paramétert kapjon: `x`, `y`, `radius`, `rotation`. A függvény rajzolja a bolygót az adott `(x;y)` koordinátákba! A bolygó sugara legyen `radius` és legyen `rotation` fokkal elforgatva!
 - Fejleszd tovább a megoldásod, hogy a gyűrűt ne egyetlen vastag vonalként, hanem több, vékony vonalként rajzold meg ciklus segítségével!
 
+### Példák
+
+<div class="align:center">
+
+![Bolygó gyűrűkkel](tasks/planet-rings/assets/planet-rings.png)
+
+</div>
+
 ### Megjegyzések tanárok számára
 
 - Ahhoz, hogy a bolygó kitakarja a gyűrűk egy részét először rajzold meg a bolygót, majd a gyűrűket, végül rajzold újra a bolygó felét, amelyik a gyűrűket kitakarja!

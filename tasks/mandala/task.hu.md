@@ -9,7 +9,7 @@ A feladatod egy olyan program készítése, melynek segítségével egy gombnyom
 
 ### Példák
 
-<div class="align:center">
+<div class="columns:2 align:center">
 
 ![Példa mandala (11, 5)](tasks/mandala/assets/mandala.png)
 ![Példa mandala (14, 4)](tasks/mandala/assets/mandala-2.png)

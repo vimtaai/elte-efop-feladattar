@@ -4,9 +4,9 @@ Write a JavaScript program that lists an existing dataset (animals of a farm) in
 
 ### Additional tasks
 
-1. Each animal has a field that contains a boolean (whether given animal is indoor or not; `indoor`). If its value is `true`, the respective column should contain the text `Indoor`, while on a `false` value it should be `Outdoor`!
-2. If an animal is younger than 5 years old, its row should be colored blue, and red otherwise (use the `.young` and `.old` classes)!
-3. Only list the data once, after that any button press should do nothing.
+- Each animal has a field that contains a boolean (whether given animal is indoor or not; `indoor`). If its value is `true`, the respective column should contain the text `Indoor`, while on a `false` value it should be `Outdoor`!
+- If an animal is younger than 5 years old, its row should be colored blue, and red otherwise (use the `.young` and `.old` classes)!
+- Only list the data once, after that any button press should do nothing.
 
 ### Notes to teachers
 

@@ -9,7 +9,7 @@ Your task is to create a picture of a rainbow on the canvas. To create the pictu
 
 ### Examples
 
-<div class="columns:2 align:center">
+<div class="align:center">
 
 ![The complete rainbow](tasks/rainbow/assets/rainbow.png)
 

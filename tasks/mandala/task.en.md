@@ -9,7 +9,7 @@ Your task is to create program for drawing mandala-like images on a click of a b
 
 ### Examples
 
-<div class="align:center">
+<div class="columns:2 align:center">
 
 ![Example mandala (11, 5)](tasks/mandala/assets/mandala.png)
 ![Example mandala (14, 4)](tasks/mandala/assets/mandala-2.png)

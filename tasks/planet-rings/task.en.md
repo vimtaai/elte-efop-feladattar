@@ -7,6 +7,14 @@ Your task is to draw a planet (colored circle) with rings (ellipse) around them 
 - Make your drawing function accept four parameters: `x`, `y`, `radius`, `rotation`. The function should draw the planet to coordinates `(x;y)`. The radius of the planet should be the `radius` argument it should be rotated by `rotation` degrees.
 - Improve the ring by drawing the rings as multiple thin lines with a loop.
 
+### Examples
+
+<div class="align:center">
+
+![Planet rings](tasks/planet-rings/assets/planet-rings.png)
+
+</div>
+
 ### Notes to teachers
 
 - To have the planet in front of only a part of the rings, you can draw planet then the rings and then draw half of the planet again to cover part of the rings.

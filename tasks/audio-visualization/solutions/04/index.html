@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Visualization</title>
+</head>
+<body>
+  <canvas></canvas>
+  <div style="width: 500px; display: grid; grid-template-columns: 1fr 1fr 1fr;">
+    <div id="low">
+      <strong>Low volume</strong><br>
+      Color: <br>
+      <input type="color" value="#00FF00">
+    </div>
+    <div id="medium">
+      <strong>Medium volume</strong><br>
+      Color: <br>
+      <input type="color" value="#FF8800"><br>
+      Threshold: <br>
+      <input type="number" value="100" min="1" max="149">
+    </div>
+    <div id="high">
+      <strong>High volume</strong><br>
+      Color: <br>
+      <input type="color" value="#FF0000"><br>
+      Threshold: <br>
+      <input type="number" value="150" min="101" max="199">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

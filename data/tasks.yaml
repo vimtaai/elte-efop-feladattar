@@ -62,6 +62,20 @@ kata:
     en:
       meta: !file ../tasks/guess-the-number/meta.en.yaml
       task: !file ../tasks/guess-the-number/task.en.md
+  - id: symbols
+    hu:
+      meta: !file ../tasks/symbols/meta.hu.yaml
+      task: !file ../tasks/symbols/task.hu.md
+    en:
+      meta: !file ../tasks/symbols/meta.en.yaml
+      task: !file ../tasks/symbols/task.en.md
+  - id: logos
+    hu:
+      meta: !file ../tasks/logos/meta.hu.yaml
+      task: !file ../tasks/logos/task.hu.md
+    en:
+      meta: !file ../tasks/logos/meta.en.yaml
+      task: !file ../tasks/logos/task.en.md
   - id: drawing-pacman
     hu:
       meta: !file ../tasks/drawing-pacman/meta.hu.yaml
@@ -106,13 +120,13 @@ kata:
       task: !file ../tasks/compass/task.en.md
 
 complex:
-  - id: solar-system
+  - id: audio-visualization
     hu:
-      meta: !file ../tasks/solar-system/meta.hu.yaml
-      task: !file ../tasks/solar-system/task.hu.md
+      meta: !file ../tasks/audio-visualization/meta.hu.yaml
+      task: !file ../tasks/audio-visualization/task.hu.md
     en:
-      meta: !file ../tasks/solar-system/meta.en.yaml
-      task: !file ../tasks/solar-system/task.en.md
+      meta: !file ../tasks/audio-visualization/meta.en.yaml
+      task: !file ../tasks/audio-visualization/task.en.md
   - id: memory-card
     hu:
       meta: !file ../tasks/memory-card/meta.hu.yaml
@@ -120,6 +134,13 @@ complex:
     en:
       meta: !file ../tasks/memory-card/meta.en.yaml
       task: !file ../tasks/memory-card/task.en.md
+  - id: solar-system
+    hu:
+      meta: !file ../tasks/solar-system/meta.hu.yaml
+      task: !file ../tasks/solar-system/task.hu.md
+    en:
+      meta: !file ../tasks/solar-system/meta.en.yaml
+      task: !file ../tasks/solar-system/task.en.md
 
 application:
   - id: moving-robot
