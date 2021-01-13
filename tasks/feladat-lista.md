@@ -4,6 +4,7 @@
 
 - [x] Léptethető szám mező
 - [x] Karika számláló
+- [ ] Számológép
 - [x] Bankkártya szám
 - [x] Számkitalálós
 - [x] Valós idejű keresőmező
@@ -11,6 +12,7 @@
 - [ ] Accordion komponens
 - [ ] Tab control komponens
 - [x] Iránytű (egérre)
+- [ ] Akasztófa
 - [x] Aknakereső
 - [ENG!] Robotos játék
 - [ ] Set kártyajáték
@@ -32,7 +34,8 @@
 - [x] Rajzoljunk csillagos égboltot
 - [x] Rajzoljunk csillagot oda, ahova kattintottunk
 - [x] Pacman rajzolás
-- [ ] Logo rajzolás
+- [x] Logo rajzolás
+- [x] Szimbólum rajzolás
 - [ ] Zászló rajzolás
 - [ ] Térkép rajzolás
 - [x] Mandala rajzolás
@@ -44,6 +47,7 @@
 - [x] Audio vizualizáció
 - [ ] Pattogó labda + gravitáció
 - [ ] Pong játék
+- [ ] Kígyó játék
 - [ ] Flappy bird
 - [ ] Aszteroida játék
 - [ ] Zombis játék
