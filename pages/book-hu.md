@@ -4,7 +4,7 @@ tasks: !file tasks.yaml
 
 <div class="cover">
   <div class="title">
-    A böngésző, mint alkalmazásfejlesztési platform
+    A böngésző mint alkalmazásfejlesztési platform
   </div>
   <div class="title">
     Feladattár
@@ -27,38 +27,47 @@ tasks: !file tasks.yaml
 # Ujjgyakorlatok
 
 {{#tasks.kata}}
+
 - **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
-{{/tasks.kata}}
+  {{/tasks.kata}}
 
 ---
 
 {{#tasks.kata}}
 {{{hu.task}}}
+
 ---
+
 {{/tasks.kata}}
 
 # Komplex feladatok
 
 {{#tasks.complex}}
+
 - **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
-{{/tasks.complex}}
+  {{/tasks.complex}}
 
 ---
 
 {{#tasks.complex}}
 {{{hu.task}}}
+
 ---
+
 {{/tasks.complex}}
 
 # Alkalmazások
 
 {{#tasks.application}}
+
 - **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
-{{/tasks.application}}
+  {{/tasks.application}}
 
 ---
 
 {{#tasks.application}}
 {{{hu.task}}}
+
 ---
+
 {{/tasks.application}}
