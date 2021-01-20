@@ -49,7 +49,7 @@
 - [ ] Pattogó labda + gravitáció
 - [ ] Pong játék
 - [ ] Kígyó játék
-- [ ] Flappy bird
+- [x] Flappy bird
 - [ ] Aszteroida játék
 - [ ] Zombis játék
 - [ ] Tankos játék

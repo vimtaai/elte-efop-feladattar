@@ -155,6 +155,13 @@ complex:
     en:
       meta: !file ../tasks/pixel-art/meta.en.yaml
       task: !file ../tasks/pixel-art/task.en.md
+  - id: flappy-bird
+    hu:
+      meta: !file ../tasks/flappy-bird/meta.hu.yaml
+      task: !file ../tasks/flappy-bird/task.hu.md
+    en:
+      meta: !file ../tasks/flappy-bird/meta.en.yaml
+      task: !file ../tasks/flappy-bird/task.en.md
 
 application:
   - id: moving-robot
