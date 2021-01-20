@@ -1,4 +1,4 @@
-## Feladat neve
+## Pixel-art
 
 Készíts egy pixel-art készítését elősegítő alkalmazást. Legyen lehetőség egy pixel-artot rajzolni, amely során egy rács pontjait különböző színűre színezhetjük. Legyen egy színválasztó rész, ahol új szín választása mellett a már használt színek is fel vannak sorolva. Legyen törlési lehetőség a jobb gomb megnyomásával. Lehessen több pixel-art ábrát kezelni, azaz legyen egy lista, amelyben az ábrák előnézeti képei vannak, és amelyekre kattintva az adott ábra a szerkesztőben megjelenik. Ott szerkesztés után elmentve módosul a listában. A lista elemei automatikusan elmentésre kerülnek a böngésző lokális adattároló rétegében.
 
