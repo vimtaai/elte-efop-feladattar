@@ -148,6 +148,13 @@ complex:
     en:
       meta: !file ../tasks/hangman/meta.en.yaml
       task: !file ../tasks/hangman/task.en.md
+  - id: pixel-art
+    hu:
+      meta: !file ../tasks/pixel-art/meta.hu.yaml
+      task: !file ../tasks/pixel-art/task.hu.md
+    en:
+      meta: !file ../tasks/pixel-art/meta.en.yaml
+      task: !file ../tasks/pixel-art/task.en.md
 
 application:
   - id: moving-robot

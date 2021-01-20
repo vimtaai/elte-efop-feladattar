@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pixel-art</title>
+  </head>
+  <body>
+    <h1>Pixel-art</h1>
+
+    <h2>Editor</h2>
+    <form>
+      Width: <input type="number" id="width" value="4" /> <br />
+      Height: <input type="number" id="height" value="3" /> <br />
+      <button type="button" id="btnGenerate">Generate</button>
+      <button type="button" id="btnSave">Save</button>
+    </form>
+
+    <div id="editor">
+      <table class="edit">
+        <tr>
+          <td style="background-color: #ff0000"></td>
+          <td style="background-color: #00ff00"></td>
+          <td style="background-color: #0000ff"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #ff0000"></td>
+          <td style="background-color: #00ff00"></td>
+          <td style="background-color: #0000ff"></td>
+        </tr>
+      </table>
+    </div>
+
+    <h2>Preview</h2>
+    <table class="preview">
+      <tr>
+        <td style="background-color: #ff0000"></td>
+        <td style="background-color: #00ff00"></td>
+        <td style="background-color: #0000ff"></td>
+      </tr>
+      <tr>
+        <td style="background-color: #ff0000"></td>
+        <td style="background-color: #00ff00"></td>
+        <td style="background-color: #0000ff"></td>
+      </tr>
+    </table>
+  </body>
+</html>

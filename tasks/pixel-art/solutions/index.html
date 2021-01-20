@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pixel-art</title>
+  </head>
+  <body>
+    <h1>Pixel-art</h1>
+
+    <div id="editor-container" hidden>
+      <h2>Editor</h2>
+      <form>
+        Width: <input type="number" id="width" value="10" min="1" max="100" /> <br />
+        Height: <input type="number" id="height" value="10" min="1" max="100" /> <br />
+        <button type="button" id="btnGenerate">Generate</button>
+        <button type="button" id="btnGenerateNonDestructive">Generate non-destructively</button>
+        <button type="button" id="btnSave">Save</button> <br />
+      </form>
+      <div>
+        <input type="color" id="color" />
+        <div id="color-shower">Actual color</div>
+        <div>Selected colors:</div>
+        <div id="colors"></div>
+      </div>
+      <div id="editor"></div>
+    </div>
+
+    <h2>Pixel-art list</h2>
+    <button id="new-pixel-art">New pixel-art</button>
+    <div id="pixel-art-list"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

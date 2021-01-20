@@ -12,7 +12,7 @@
 - [ ] Accordion komponens
 - [ ] Tab control komponens
 - [x] Iránytű (egérre)
-- [ ] Akasztófa
+- [x] Akasztófa
 - [x] Aknakereső
 - [ENG!] Robotos játék
 - [ ] Set kártyajáték
@@ -22,6 +22,7 @@
 - [x] Legördülő lista
 - [x] Táblázat generálás
 - [x] Memória játék
+- [x] Pixel-art
 - [ ] Among us: buy beverage
 - [ ] Among us: prime shields
 - [ ] Among us: record temperature
