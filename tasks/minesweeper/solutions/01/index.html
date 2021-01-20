@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minesweeper</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <label for="width">Width</label>
-    <input type="number" id="width" min="4" max="20">
-    <label for="height">Height</label>
-    <input type="number" id="height" min="4" max="20">
-    <label for="mineCount">Mine count</label>
-    <input type="number" id="mineCount" max="399">
-    <button>New game</button>
 
-    <div id="game"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <script type="module" src="index.js"></script>
-  </body>
+<body>
+  <label for="width">Width</label>
+  <input type="number" id="width" min="4" max="20">
+  <label for="height">Height</label>
+  <input type="number" id="height" min="4" max="20">
+  <label for="mineCount">Mine count</label>
+  <input type="number" id="mineCount" max="399">
+  <button>New game</button>
+
+  <div id="game"></div>
+
+  <script type="module" src="index.js"></script>
+</body>
+
 </html>

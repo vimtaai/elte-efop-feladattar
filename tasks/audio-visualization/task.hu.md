@@ -2,7 +2,7 @@
 
 Feladatod egy olyan program készítése, ami egy szimulált audio jelet vizualizál. Ennek az audio jelnek a formátuma a következő: egy tömbben számokat tárolunk `[0;200]` intervallumban. Első feladatod, hogy generálj egy ilyen tömböt és töltsd fel véletlen számokkal az adott intervallumban. Kezdetnek készíts egy tömböt 10 elemmel!
 
-A következő lépés az audio jel vizualizációja. Az tömb minden eleme egy adott hangsávot reprezentál, az érték az adott hangsáv hangerejét jelöli. Ez az érték egy oszlopként fog megjelenni. Minden oszlopnak azonos a szélessége (pl. 20px), a magasságuk pedig megegyezik a tömbben tárolt értékkekkel.
+A következő lépés az audio jel vizualizációja. A tömb minden eleme egy adott hangsávot reprezentál, az érték az adott hangsáv hangerejét jelöli. Ez az érték egy oszlopként fog megjelenni. Minden oszlopnak azonos a szélessége (pl. 20px), a magasságuk pedig megegyezik a tömbben tárolt értékkekkel.
 
 Állítsd be a vászon méretét úgy, hogy beleférjen a vizualizáció. Minden oszloppár között, illetve a vászon szélén is legyen valamennyi üres hely (pl. 10px). Végül rajzold meg a tömb elemeit reprezentáló oszlopokat!
 

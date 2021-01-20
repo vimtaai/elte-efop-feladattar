@@ -141,6 +141,13 @@ complex:
     en:
       meta: !file ../tasks/solar-system/meta.en.yaml
       task: !file ../tasks/solar-system/task.en.md
+  - id: hangman
+    hu:
+      meta: !file ../tasks/hangman/meta.hu.yaml
+      task: !file ../tasks/hangman/task.hu.md
+    en:
+      meta: !file ../tasks/hangman/meta.en.yaml
+      task: !file ../tasks/hangman/task.en.md
 
 application:
   - id: moving-robot
