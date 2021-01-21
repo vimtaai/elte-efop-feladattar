@@ -24,50 +24,49 @@ tasks: !file tasks.yaml
   </div>
 </div>
 
+# Tartalomjegyzék
+
+- **[Ujjgyakorlatok](#ujjgyakorlatok)**
+- **[Komplex feladatok](#komplex-feladatok)**
+- **[Alkalmazások](#alkalmazások)**
+
+---
+
 # Ujjgyakorlatok
 
 {{#tasks.kata}}
-
 - **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
-  {{/tasks.kata}}
+{{/tasks.kata}}
 
 ---
 
 {{#tasks.kata}}
 {{{hu.task}}}
-
 ---
-
 {{/tasks.kata}}
 
 # Komplex feladatok
 
 {{#tasks.complex}}
-
 - **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
-  {{/tasks.complex}}
+{{/tasks.complex}}
 
 ---
 
 {{#tasks.complex}}
 {{{hu.task}}}
-
 ---
-
 {{/tasks.complex}}
 
 # Alkalmazások
 
 {{#tasks.application}}
-
 - **[{{hu.meta.name}}](#!/../tasks/{{id}}/task.hu.md)**: {{hu.meta.description}}
-  {{/tasks.application}}
+{{/tasks.application}}
 
 ---
 
 {{#tasks.application}}
 {{{hu.task}}}
-
 ---
-
 {{/tasks.application}}

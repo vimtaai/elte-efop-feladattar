@@ -21,6 +21,14 @@ tasks: !file tasks.yaml
   </div>
 </div>
 
+# Table of contents
+
+- **[Katas](#katas)**
+- **[Complex exercises](#complex-exercises)**
+- **[Applications](#applications)**
+
+---
+
 ## Katas
 
 {{#tasks.kata}}
