@@ -11,7 +11,8 @@ tasks: !file tasks.yaml
   </div>
 
   <div class="authors">
-    Tamás Bucsánszki, Viktor Gerely, Győző Horváth, Márton Visnovitz
+    Tamás Bucsánszki, Viktor Gerely,<br>
+    Győző Horváth, Márton Visnovitz
   </div>
 
   <div class="subtitle">
@@ -29,7 +30,7 @@ tasks: !file tasks.yaml
 
 ---
 
-## Katas
+# Katas
 
 {{#tasks.kata}}
 - **[{{en.meta.name}}](#!/../tasks/{{id}}/task.en.md)**: {{en.meta.description}}
@@ -44,7 +45,7 @@ tasks: !file tasks.yaml
 
 ---
 
-## Complex exercises
+# Complex exercises
 
 {{#tasks.complex}}
 - **[{{en.meta.name}}](#!/../tasks/{{id}}/task.en.md)**: {{en.meta.description}}
@@ -55,7 +56,7 @@ tasks: !file tasks.yaml
 ---
 {{/tasks.complex}}
 
-## Applications
+# Applications
 
 {{#tasks.application}}
 - **[{{en.meta.name}}](#!/../tasks/{{id}}/task.en.md)**: {{en.meta.description}}

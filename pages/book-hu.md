@@ -11,7 +11,8 @@ tasks: !file tasks.yaml
   </div>
 
   <div class="authors">
-    Bucsánszki Tamás, Gerely Viktor, Horváth Győző, Visnovitz Márton
+    Bucsánszki Tamás, Gerely Viktor,<br>
+    Horváth Győző, Visnovitz Márton
   </div>
 
   <div class="subtitle">
