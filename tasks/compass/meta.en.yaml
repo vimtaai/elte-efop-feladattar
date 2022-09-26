@@ -1,2 +1,6 @@
 name: Compass
 description: Creating a compass, that always points at the cursor
+tags:
+  - DOM
+  - Canvas
+  - Event Object

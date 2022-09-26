@@ -1,2 +1,6 @@
 name: Iránytű
 description: Iránytű készítése, mely mindig a kurzorra mutat
+tags:
+  - DOM
+  - Canvas
+  - Event Object
