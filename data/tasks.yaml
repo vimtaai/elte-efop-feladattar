@@ -7,6 +7,14 @@ kata:
       meta: !file ../tasks/credit-card-number/meta.en.yaml
       task: !file ../tasks/credit-card-number/task.en.md
 
+  - id: learning-card
+    hu:
+      meta: !file ../tasks/learning-card/meta.hu.yaml
+      task: !file ../tasks/learning-card/task.hu.md
+    en:
+      meta: !file ../tasks/learning-card/meta.en.yaml
+      task: !file ../tasks/learning-card/task.en.md
+
   - id: number-stepper
     hu:
       meta: !file ../tasks/number-stepper/meta.hu.yaml
