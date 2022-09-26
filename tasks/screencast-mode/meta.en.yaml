@@ -1,0 +1,5 @@
+name: Screencast Mode
+description: Showing the currently pressed keys on the screen
+tags:
+  - DOM
+  - Event Object

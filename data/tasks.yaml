@@ -6,6 +6,7 @@ kata:
     en:
       meta: !file ../tasks/credit-card-number/meta.en.yaml
       task: !file ../tasks/credit-card-number/task.en.md
+
   - id: number-stepper
     hu:
       meta: !file ../tasks/number-stepper/meta.hu.yaml
@@ -13,6 +14,7 @@ kata:
     en:
       meta: !file ../tasks/number-stepper/meta.en.yaml
       task: !file ../tasks/number-stepper/task.en.md
+
   - id: circle-counter
     hu:
       meta: !file ../tasks/circle-counter/meta.hu.yaml
@@ -20,6 +22,7 @@ kata:
     en:
       meta: !file ../tasks/circle-counter/meta.en.yaml
       task: !file ../tasks/circle-counter/task.en.md
+
   - id: table-generation
     hu:
       meta: !file ../tasks/table-generation/meta.hu.yaml
@@ -27,6 +30,7 @@ kata:
     en:
       meta: !file ../tasks/table-generation/meta.en.yaml
       task: !file ../tasks/table-generation/task.en.md
+
   - id: comma-insertion
     hu:
       meta: !file ../tasks/comma-insertion/meta.hu.yaml
@@ -34,6 +38,7 @@ kata:
     en:
       meta: !file ../tasks/comma-insertion/meta.en.yaml
       task: !file ../tasks/comma-insertion/task.en.md
+
   - id: filter-settlements
     hu:
       meta: !file ../tasks/filter-settlements/meta.hu.yaml
@@ -41,6 +46,7 @@ kata:
     en:
       meta: !file ../tasks/filter-settlements/meta.en.yaml
       task: !file ../tasks/filter-settlements/task.en.md
+
   - id: table-coloring
     hu:
       meta: !file ../tasks/table-coloring/meta.hu.yaml
@@ -48,6 +54,15 @@ kata:
     en:
       meta: !file ../tasks/table-coloring/meta.en.yaml
       task: !file ../tasks/table-coloring/task.en.md
+
+  - id: screencast-mode
+    hu:
+      meta: !file ../tasks/screencast-mode/meta.hu.yaml
+      task: !file ../tasks/screencast-mode/task.hu.md
+    en:
+      meta: !file ../tasks/screencast-mode/meta.en.yaml
+      task: !file ../tasks/screencast-mode/task.en.md
+
   - id: details
     hu:
       meta: !file ../tasks/details/meta.hu.yaml
@@ -55,6 +70,7 @@ kata:
     en:
       meta: !file ../tasks/details/meta.en.yaml
       task: !file ../tasks/details/task.en.md
+
   - id: guess-the-number
     hu:
       meta: !file ../tasks/guess-the-number/meta.hu.yaml
@@ -62,6 +78,7 @@ kata:
     en:
       meta: !file ../tasks/guess-the-number/meta.en.yaml
       task: !file ../tasks/guess-the-number/task.en.md
+
   - id: symbols
     hu:
       meta: !file ../tasks/symbols/meta.hu.yaml
@@ -69,6 +86,7 @@ kata:
     en:
       meta: !file ../tasks/symbols/meta.en.yaml
       task: !file ../tasks/symbols/task.en.md
+
   - id: logos
     hu:
       meta: !file ../tasks/logos/meta.hu.yaml
@@ -76,6 +94,7 @@ kata:
     en:
       meta: !file ../tasks/logos/meta.en.yaml
       task: !file ../tasks/logos/task.en.md
+
   - id: drawing-pacman
     hu:
       meta: !file ../tasks/drawing-pacman/meta.hu.yaml
@@ -83,6 +102,7 @@ kata:
     en:
       meta: !file ../tasks/drawing-pacman/meta.en.yaml
       task: !file ../tasks/drawing-pacman/task.en.md
+
   - id: planet-rings
     hu:
       meta: !file ../tasks/planet-rings/meta.hu.yaml
@@ -90,6 +110,7 @@ kata:
     en:
       meta: !file ../tasks/planet-rings/meta.en.yaml
       task: !file ../tasks/planet-rings/task.en.md
+
   - id: starry-sky
     hu:
       meta: !file ../tasks/starry-sky/meta.hu.yaml
@@ -97,6 +118,7 @@ kata:
     en:
       meta: !file ../tasks/starry-sky/meta.en.yaml
       task: !file ../tasks/starry-sky/task.en.md
+
   - id: mandala
     hu:
       meta: !file ../tasks/mandala/meta.hu.yaml
@@ -104,6 +126,7 @@ kata:
     en:
       meta: !file ../tasks/mandala/meta.en.yaml
       task: !file ../tasks/mandala/task.en.md
+
   - id: rainbow
     hu:
       meta: !file ../tasks/rainbow/meta.hu.yaml
@@ -111,13 +134,6 @@ kata:
     en:
       meta: !file ../tasks/rainbow/meta.en.yaml
       task: !file ../tasks/rainbow/task.en.md
-  - id: compass
-    hu:
-      meta: !file ../tasks/compass/meta.hu.yaml
-      task: !file ../tasks/compass/task.hu.md
-    en:
-      meta: !file ../tasks/compass/meta.en.yaml
-      task: !file ../tasks/compass/task.en.md
 
 complex:
   - id: audio-visualization
